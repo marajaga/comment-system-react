@@ -3,7 +3,6 @@ import "./App.scss";
 import CommentList from "./CommentList";
 import AdminMode from "./AdminMode";
 import CommentForm from "./CommentForm";
-import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 
 class App extends Component {
@@ -16,7 +15,7 @@ class App extends Component {
     axios.get("https://jsonplaceholder.typicode.com/comments").then((res) => {
       console.log(res.data);
       this.setState({
-        comments: res.data.filter((comment) => comment.postId == 1),
+        comments: res.data.filter((comment) => comment.postId === 1),
       });
     });
   }
