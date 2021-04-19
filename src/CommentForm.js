@@ -30,7 +30,7 @@ class CommentForm extends Component {
 
         <form onSubmit={this.handleSubmit}>
           <div className="field">
-            <label className="label">Name</label>
+            <label className="label">Nom</label>
 
             <div className="control">
               <input
