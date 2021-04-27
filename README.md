@@ -1,5 +1,5 @@
-## React Comment System
+## React Système de commentaire
 
-This is a simple project to play with a React Comment List, using Axios for fetching fake data.
+Il s'agit d'un projet simple, une liste de commentaires en React, en utilisant Axios pour récupérer de fausses données.
 
-A demo is deployed at [https://comment-system-react.netlify.app/](https://comment-system-react.netlify.app/).
+https://comment-system-react.netlify.app/
